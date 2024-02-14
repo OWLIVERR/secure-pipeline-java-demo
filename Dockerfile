@@ -1,4 +1,4 @@
-FROM openjdk:8-jre
+FROM openjdk:17-jre
 WORKDIR /root/
 COPY target/demo-0.0.1-SNAPSHOT.jar .
 EXPOSE 8080
